@@ -1,0 +1,29 @@
+/** body viewport width */
+.bvw{
+    width: calc(100% - 40px);
+    margin: 0 auto;
+}
+.vertex{
+    height:30px;
+    line-height:30px;
+    background-color: #F7F7F7;
+    border-bottom: 1px solid #eee;
+}
+.vertex .split-line{
+    border-right: 1px solid #ddd;
+    padding-right: 12px;
+}
+.vertex a{
+    color: #666;
+    text-decoration: none;
+}
+.vertex .dropdown-menu{
+    right:0;
+    left: auto;
+}
+
+.vertex a:hover,
+.vertex .dropdown-menu li a:hover{
+    color:red;
+    text-decoration: underline;
+}
