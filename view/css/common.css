@@ -13,6 +13,9 @@
     border-right: 1px solid #ddd;
     padding-right: 12px;
 }
+.vertex ul{
+    margin-bottom: 0;
+}
 .vertex a{
     color: #666;
     text-decoration: none;
